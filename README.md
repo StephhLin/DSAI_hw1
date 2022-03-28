@@ -65,7 +65,7 @@ model.add(Dense(1))
 model.compile(loss='mean_squared_error', optimizer='adam')
 model.fit(trainX, trainY, epochs=100, batch_size=1, verbose=2)
 ```
->其中有 1個 input 到 visible layer，hidden layer 有4個神經元， output layer 輸出單一值的直預測資料。<br>
+>其中有 1個 input 到 visible layer，hidden layer 有4個神經元， output layer 輸出單一值的預測資料。<br>
 * epochs = 100<br>
 * batch_size = 1<br>
 ##### 以下為Keras導入模塊 : <br>
